@@ -1,0 +1,98 @@
+//practical-9
+
+  class Rectangle{
+   
+   double width;
+   double height;
+
+  Rectangle(){
+      width =1;
+      height =1;
+      } 
+
+ Rectangle(double w, double h)
+{
+      width =w;
+      height= h;
+ }
+
+
+double getArea()
+{
+  return width*height;
+}
+
+  double getPerimeter()
+{
+  return 2* (width + height);
+}
+
+
+ public static void main(String[] args){
+
+Rectangle obj1 = new Rectangle();
+System.out.println("area od obj1:" +obj1.getArea());
+System.out.println("perimeter od obj1:" +obj1.getPerimeter());
+
+Rectangle obj2 = new Rectangle(2,2);
+System.out.println("area od obj2:" +obj2.getArea( ));
+System.out.println("perimeter od obj2:" +obj2.getPerimeter());
+
+    
+
+
+
+}
+
+}
+
+
+//practical-9
+
+  class Rectangle{
+   
+   double width;
+   double height;
+
+  Rectangle(){
+      width =1;
+      height =1;
+      } 
+
+ Rectangle(double w, double h)
+{
+      width =w;
+      height= h;
+ }
+
+
+double getArea()
+{
+  return width*height;
+}
+
+  double getPerimeter()
+{
+  return 2* (width + height);
+}
+
+
+ public static void main(String[] args){
+
+Rectangle obj1 = new Rectangle();
+System.out.println("area od obj1:" +obj1.getArea());
+System.out.println("perimeter od obj1:" +obj1.getPerimeter());
+
+Rectangle obj2 = new Rectangle(2,2);
+System.out.println("area od obj2:" +obj2.getArea( ));
+System.out.println("perimeter od obj2:" +obj2.getPerimeter());
+
+    
+
+
+
+}
+
+}
+
+
